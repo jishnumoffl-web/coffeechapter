@@ -17,20 +17,26 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="">
-      <CoffeeHero />
-      <Type />
-      <PopularFlavors />
+      <div id="hero">
+        <CoffeeHero />
+      </div>
+      <div id="about">
+        <Type />
+      </div>
+      <div id="menu">
+        <PopularFlavors />
+      </div>{" "}
       {/* <CoffeeShopAbout /> */}
       <CoffeeFeatures />
-      <FranchiseCTA />
+      <div id="franchise">
+        <FranchiseCTA />
+      </div>
       {/* <CoffeeCraftSection /> */}
       <CoffeeTestimonials />
       {/* <CoffeeGallery /> */}
-
       <CoffeeFooter />
       {/* <CoffeeChapterSection /> */}
       {/* <CoffeeStorySection /> */}
-
       {/* <BrandShowcase /> */}
       {/* <PopularProducts /> */}
       {/* <ChocolateSection /> */}

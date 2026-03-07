@@ -26,13 +26,22 @@ export default function CoffeeFooter() {
             </p>
 
             <div className="flex gap-4 mt-6">
-              <a className="hover:text-[#C89A5B]" href="#">
+              <a
+                className="hover:text-[#C89A5B]"
+                href="https://www.instagram.com/coffee__chapter?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              >
                 <Instagram />
               </a>
-              <a className="hover:text-[#C89A5B]" href="#">
+              <a
+                className="hover:text-[#C89A5B]"
+                href="https://www.instagram.com/coffee__chapter?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              >
                 <Facebook />
               </a>
-              <a className="hover:text-[#C89A5B]" href="#">
+              <a
+                className="hover:text-[#C89A5B]"
+                href="https://www.instagram.com/coffee__chapter?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              >
                 <Twitter />
               </a>
             </div>
@@ -43,27 +52,27 @@ export default function CoffeeFooter() {
             <h4 className="font-bold text-white mb-5">Quick Links</h4>
             <ul className="space-y-3 text-sm text-[#D8C2A3]">
               <li>
-                <a href="#" className="hover:text-[#C89A5B]">
+                <a href="#home" className="hover:text-[#C89A5B]">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C89A5B]">
+                <a href="#menu" className="hover:text-[#C89A5B]">
                   Menu
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C89A5B]">
+                <a href="#about" className="hover:text-[#C89A5B]">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C89A5B]">
+                <a href="#franchise" className="hover:text-[#C89A5B]">
                   Franchise
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#C89A5B]">
+                <a href="#contact" className="hover:text-[#C89A5B]">
                   Contact
                 </a>
               </li>
@@ -76,15 +85,15 @@ export default function CoffeeFooter() {
             <ul className="space-y-4 text-sm text-[#D8C2A3]">
               <li className="flex gap-3">
                 <MapPin size={18} className="text-[#C89A5B]" />
-                <span>Your City, India</span>
+                <span>lamba Narol. Ahmedabad, Gujarat. INDIA</span>
               </li>
               <li className="flex gap-3">
                 <Phone size={18} className="text-[#C89A5B]" />
-                <span>+91 98765 43210</span>
+                <span>+91 9961240481</span>
               </li>
               <li className="flex gap-3">
                 <Mail size={18} className="text-[#C89A5B]" />
-                <span>hello@coffeechapter.in</span>
+                <span> coffeechapter2025@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -93,17 +102,14 @@ export default function CoffeeFooter() {
           <div>
             <h4 className="font-bold text-white mb-5">Opening Hours</h4>
             <ul className="space-y-3 text-sm text-[#D8C2A3]">
-              <li>Mon – Fri: 9:00 AM – 10:00 PM</li>
-              <li>Saturday: 10:00 AM – 11:00 PM</li>
-              <li>Sunday: 10:00 AM – 9:00 PM</li>
+              Every day 11 pm to 1 am
             </ul>
           </div>
         </div>
 
         {/* BOTTOM */}
         <div className="py-6 text-center text-sm text-[#BFA98A]">
-          © {new Date().getFullYear()} Coffee Chapter. All rights
-          reserved.Designed by <a href="https://jishnum.in">Jishnu m</a>
+          © {new Date().getFullYear()} Coffee Chapter. All rights reserved
         </div>
       </div>
     </footer>

@@ -72,34 +72,39 @@ export default function PopularFlavors() {
   ========================== */
   const products = [
     {
-      title: "Hazelnut Latte",
+      title: "Thiramishu cold coffee",
       price: "$18.99",
-      img: "/images/1.webp",
+      img: "/images/tcc.webp",
     },
     {
-      title: "Cold Brew",
+      title: "Butterscotch Caramel Coldcoffee",
       price: "$16.99",
-      img: "/images/2.webp",
+      img: "/images/bcc.webp",
     },
     {
-      title: "Mocha Fusion",
+      title: "Strawberry Thick Shake",
       price: "$12.99",
-      img: "/images/3.webp",
+      img: "/images/sts.webp",
     },
     {
-      title: "Vanilla Cappuccino",
+      title: "Oreo Thick Shake",
       price: "$14.99",
-      img: "/images/4.webp",
+      img: "/images/ots.webp",
     },
     {
-      title: "Caramel Macchiato",
+      title: "Peach Ice Tea",
       price: "$15.99",
-      img: "/images/5.webp",
+      img: "/images/pit.webp",
     },
     {
-      title: "Espresso Shot",
+      title: "Nutella Brownie With Icecream",
       price: "$8.99",
-      img: "/images/6.webp",
+      img: "/images/nb.webp",
+    },
+    {
+      title: "Fresh fruit delight",
+      price: "$8.99",
+      img: "/images/ffd.webp",
     },
   ];
 
@@ -147,13 +152,13 @@ export default function PopularFlavors() {
                 {item.title}
               </h3>
 
-              <p className="text-xs text-[#E0C7AA] mt-1">
+              {/* <p className="text-xs text-[#E0C7AA] mt-1">
                 Handcrafted specialty coffee
-              </p>
+              </p> */}
 
-              <p className="text-[#F6E3C2] font-extrabold text-lg mt-3">
+              {/* <p className="text-[#F6E3C2] font-extrabold text-lg mt-3">
                 {item.price}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>
