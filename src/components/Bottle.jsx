@@ -101,7 +101,7 @@ export default function CoffeeFeatures() {
 
             <img
               ref={centerRef}
-              src="/images/coffee.webp" // replace with your product image
+              src="/images/bot.webp" // replace with your product image
               alt="Coffee Cup"
               className="relative z-10 w-80"
             />

@@ -109,7 +109,7 @@ export default function CoffeeHero() {
         {/* RIGHT IMAGE */}
         <div className="w-full lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
           <img
-            src="/images/hero2.webp"
+            src="/images/shake.webp"
             alt="Coffee Pour"
             className="max-w-sm sm:max-w-md lg:max-w-lg "
           />
