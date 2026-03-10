@@ -106,6 +106,16 @@ export default function PopularFlavors() {
       price: "$8.99",
       img: "/images/ffd.webp",
     },
+    {
+      title: "Sizzling Brownie",
+      price: "$8.99",
+      img: "/images/sb.webp",
+    },
+    {
+      title: "Pizza nachos",
+      price: "$8.99",
+      img: "/images/pn.webp",
+    },
   ];
 
   return (

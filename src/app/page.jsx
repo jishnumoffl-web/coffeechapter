@@ -12,6 +12,7 @@ import CoffeeChapterSection from "@/components/ShopNew";
 import PopularProducts from "@/components/SideMenu";
 import CoffeeTestimonials from "@/components/Testimonial";
 import Type from "@/components/Type";
+import BrownieVideoSection from "@/components/Video";
 import Image from "next/image";
 
 export default function Home() {
@@ -26,6 +27,9 @@ export default function Home() {
       <div id="menu">
         <PopularFlavors />
       </div>{" "}
+      <div>
+        <BrownieVideoSection />
+      </div>
       {/* <CoffeeShopAbout /> */}
       <CoffeeFeatures />
       <div id="franchise">
