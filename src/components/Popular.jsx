@@ -116,6 +116,11 @@ export default function PopularFlavors() {
       price: "$8.99",
       img: "/images/pn.webp",
     },
+    {
+      title: "Coin Pizza",
+      price: "$8.99",
+      img: "/images/coinpizza.webp",
+    },
   ];
 
   return (
